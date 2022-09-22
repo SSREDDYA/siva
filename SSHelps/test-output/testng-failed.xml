@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.Find_Elements_List_Example3">
+        <methods>
+          <include name="find_elements_list_example"/>
+          <include name="browserOpen2"/>
+          <include name="List_elements2"/>
+          <include name="Cls"/>
+        </methods>
+      </class> <!-- TestNG.Find_Elements_List_Example3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
